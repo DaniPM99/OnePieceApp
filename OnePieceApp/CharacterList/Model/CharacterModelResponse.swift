@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct CharacterModelResponse: Decodable {
+    let results: [CharacterModel]
+}

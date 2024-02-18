@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct CharacterModel: Decodable {
+    let name: String
+    let status: String
+    let bounty: String
+    let external_url: String
+}
